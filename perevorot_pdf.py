@@ -3,8 +3,8 @@ import fitz
 from pathlib import Path
 
 # НАСТРОЙКИ - ИЗМЕНИТЕ ЭТИ ПУТИ НА СВОИ
-input_folder = r"C:\Users\VybornovOA1\Desktop\py\perevorot_pdf\input"
-output_folder = r"C:\Users\VybornovOA1\Desktop\py\perevorot_pdf\rotated_pdf"
+input_folder = r"input"
+output_folder = r"rotated_pdf"
 
 def rotate_pdf_files():
     """Функция для поворота PDF файлов на 90 градусов по часовой стрелке"""
